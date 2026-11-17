@@ -2,9 +2,7 @@
 
 **I build self-hosted software for running game servers, monitoring cameras and managing event rentals.**
 
-I have run a gaming community of more than 3,000 members since 2014, and I spent seven years in event rental operations, five of them in management. Most of my software comes out of that work: keeping game servers healthy without losing player progress, watching cameras without a cloud subscription, and quoting rentals without double-booking inventory. It runs on hardware you control, and the open-source flagship READMEs state what each project does, how it is tested and what is not finished yet.
-
-<a href="https://248tech.github.io/project-inquiry/"><img src="assets/start-a-project.svg" alt="Got an idea? Let's build it. Start a project with 248Tech." width="100%"></a>
+I have run a gaming community of more than 3,000 members since 2014 and spent seven years in event rental operations, five of them in management. My software comes out of that work: keeping game servers healthy without losing player progress, watching cameras without a cloud subscription, and quoting rentals without double-booking inventory.
 
 **[Portfolio and demos](https://248tech.github.io)** · **Work inquiries:** [start a project](https://248tech.github.io/project-inquiry/) or [joe@248tech.com](mailto:joe@248tech.com) · **Bugs and support:** open an issue on the project's repository
 
@@ -22,11 +20,11 @@ A Go server that supervises mediamtx: restarts it when it exits, reloads after r
 
 Go · React · Python/ONNX Runtime · [Browser demo (simulated data)](https://248tech.github.io/RTSPanda/demo/) · Beta
 
-#### [RentalOS](https://248tech.github.io/rentalos-site/): event rental management (commercial, source private)
+#### [RentalOS](https://248tech.github.io/RentalOS-Showcase/): event rental management (commercial, source private)
 
 Inventory availability that separates confirmed bookings from pending quotes, quoting with a click-to-sign audit trail, pull sheets for the warehouse, a public SEO catalog and an optional AI assistant whose changes require user confirmation.
 
-React · Express · SQLite · [Product site and browser demo (simulated data)](https://248tech.github.io/rentalos-site/) · Pre-release testing
+React · Express · SQLite · [Case study and browser demo (simulated data)](https://248tech.github.io/RentalOS-Showcase/) · Pre-release testing
 
 ### Other projects
 
@@ -36,6 +34,10 @@ React · Express · SQLite · [Product site and browser demo (simulated data)](h
 - **Windows apps:** [Tidy](https://github.com/248Tech/Tidy) (PC cleaner and system monitor with Recycle Bin undo) · [Tidy Lite](https://github.com/248Tech/Tidy-Lite) (111 KB native edition for low-memory PCs) · [QwenPad](https://github.com/248Tech/QwenPad) (sticky notes with a local LLM via llama.cpp) · [ImgConvert](https://github.com/248Tech/ImgConvert) (offline batch image converter, including HEIC) · [LyricVision](https://github.com/248Tech/LyricVision) (synced Spotify lyrics overlay) · [GhostReel](https://github.com/248Tech/GhostReel) (click-through video overlay) · [DarkNotepad](https://github.com/248Tech/DarkNotepad)
 - **Community tools:** [fortnite-updates-bot](https://github.com/248Tech/fortnite-updates-bot) (Discord news bot) · [fortnite-cosmetics-browser](https://github.com/248Tech/fortnite-cosmetics-browser)
 
+### Work with me
+
+<a href="https://248tech.github.io/project-inquiry/"><img src="assets/start-a-project.svg" alt="Got an idea? Let's build it. Start a project with 248Tech." width="66%"></a>
+
 ### How I work
 
-I build with AI coding assistants and keep their attribution in the commit history. The open-source flagship READMEs list their tests, current status and known limitations, so you can check the work rather than take my word for it.
+I use AI coding assistants and preserve their attribution in commit history. My flagship READMEs document testing, project status, and known limitations.
