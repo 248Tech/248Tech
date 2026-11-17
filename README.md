@@ -2,16 +2,15 @@
 
 **I build self-hosted software for running game servers, monitoring cameras and managing event rentals.**
 
-<!-- CONFIRM: the next sentence is biographical. Keep it only if it is accurate. -->
-Most of my projects started with a job I needed done: keeping a 7 Days to Die community's servers healthy, watching IP cameras without a cloud subscription, and quoting event rentals without double-booking inventory. The software runs on hardware you control, and the open-source flagship READMEs state what it does, how it is tested and what is not finished yet.
+I have run a gaming community of more than 3,000 members since 2014, and I spent seven years in event rental operations, five of them in management. Most of my software comes out of that work: keeping game servers healthy without losing player progress, watching cameras without a cloud subscription, and quoting rentals without double-booking inventory. It runs on hardware you control, and the open-source flagship READMEs state what each project does, how it is tested and what is not finished yet.
 
-**[Portfolio and demos](https://248tech.github.io)** · **Work inquiries:** <!-- TODO: add a verified email address or a working contact form before publishing --> EMAIL_NEEDED · **Bugs and support:** open an issue on the project's repository
+**[Portfolio and demos](https://248tech.github.io)** · **Work inquiries:** [joe@248tech.com](mailto:joe@248tech.com) · **Bugs and support:** open an issue on the project's repository
 
 ### Flagship projects
 
 #### [Mastermind 7DTD](https://github.com/248Tech/Mastermind-7DTD-AI-Server-Manager): server manager for 7 Days to Die communities
 
-A Go agent on each game host takes jobs from a NestJS control plane with a Next.js dashboard. Safe restarts warn players, wait out Blood Moon, take a full backup and confirm the server is empty before restarting. Also handles mod quarantine, save backups, a live map, a player portal and Discord alerts. Runs in production for one community.
+A Go agent on each game host takes jobs from a NestJS control plane with a Next.js dashboard. Safe restarts warn players, wait out Blood Moon, take a full backup and confirm the server is empty before restarting. Also handles mod quarantine, save backups, a live map, a player portal and Discord alerts. Runs the servers for my own community in production.
 
 Go · TypeScript · PostgreSQL · Redis · [Browser demo (simulated data)](https://248tech.github.io/Mastermind-7DTD-AI-Server-Manager/) · Actively maintained · Minecraft port: [Mastermind Minecraft](https://github.com/248Tech/Mastermind-Minecraft-Server-Manager) (early)
 
@@ -25,7 +24,7 @@ Go · React · Python/ONNX Runtime · [Browser demo (simulated data)](https://24
 
 Inventory availability that separates confirmed bookings from pending quotes, quoting with a click-to-sign audit trail, pull sheets for the warehouse, a public SEO catalog and an optional AI assistant whose changes require user confirmation.
 
-React · Express · SQLite · [Product site and browser demo (simulated data)](https://248tech.github.io/rentalos-site/)
+React · Express · SQLite · [Product site and browser demo (simulated data)](https://248tech.github.io/rentalos-site/) · Pre-release testing
 
 ### Other projects
 
@@ -37,5 +36,4 @@ React · Express · SQLite · [Product site and browser demo (simulated data)](h
 
 ### How I work
 
-<!-- CONFIRM: describe your actual review process in your own words. -->
-I build with AI coding assistants and keep their attribution in the commit history. I set the design, review the changes and decide what ships. The open-source flagship READMEs list its tests, current status and known limitations.
+I build with AI coding assistants and keep their attribution in the commit history. The open-source flagship READMEs list their tests, current status and known limitations, so you can check the work rather than take my word for it.
