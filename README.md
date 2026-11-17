@@ -1,8 +1,13 @@
 ### Hi, I'm Joe 👋
 
-I run **[248Tech LLC](https://248tech.com)** and build self-hosted tools: Linux automation, real-time monitoring, self-healing game-server infrastructure, and small Windows apps that do one job well.
+I'm a backend and systems developer and I run **248Tech LLC**. I build software you host yourself, so you keep your data and don't pay a subscription:
 
-Most of my projects have a **live demo** — browse them all at **[248tech.github.io](https://248tech.github.io)**.
+- 🛠️ **Infrastructure that fixes itself:** agents that watch servers, catch problems early and recover without someone on call.
+- 🎮 **Game-server tooling:** control planes, Discord bots and automation for 7 Days to Die and Minecraft communities.
+- 📦 **Practical business software:** rental inventory, site measurement and event layout tools that grew out of real day-to-day work.
+- 🪟 **Small Windows apps** that do one job well, with no ads and no telemetry.
+
+Most projects have a **live demo** you can try in the browser. See them all at **[248tech.github.io](https://248tech.github.io)**.
 
 ---
 
@@ -39,4 +44,4 @@ Most of my projects have a **live demo** — browse them all at **[248tech.githu
 
 **Tools I use:** Go · TypeScript · Python · C# · C · Node.js · React · NestJS · Docker · SQLite · Postgres · Linux/systemd · Discord bots
 
-📫 Reach me through **[248tech.com](https://248tech.com)**.
+🌐 **[248tech.com](https://248tech.com)** `[WIP]`: the company site is still being built. Until it's ready, open an issue on any repo to get in touch.
