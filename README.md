@@ -9,6 +9,10 @@ I'm a backend and systems developer and I run **248Tech LLC**. I build software 
 
 Most projects have a **live demo** you can try in the browser. See them all at **[248tech.github.io](https://248tech.github.io)**.
 
+<a href="https://248tech.github.io/project-inquiry/"><img src="assets/start-a-project.svg" alt="Got an idea? Let's build it. Start a project with 248Tech." width="100%"></a>
+
+<p align="center"><b>Need something built?</b> <a href="https://248tech.github.io/project-inquiry/">Start a project →</a> · ✉️ <a href="mailto:joe@248tech.com">joe@248tech.com</a></p>
+
 ---
 
 #### 🛰️ Self-hosted platforms
@@ -44,4 +48,4 @@ Most projects have a **live demo** you can try in the browser. See them all at *
 
 **Tools I use:** Go · TypeScript · Python · C# · C · Node.js · React · NestJS · Docker · SQLite · Postgres · Linux/systemd · Discord bots
 
-🌐 **[248tech.com](https://248tech.com)** `[WIP]`: the company site is still being built. Until it's ready, open an issue on any repo to get in touch.
+🌐 **[248tech.com](https://248tech.com)** `[WIP]`: the company site is still being built. Until it's ready, [start a project](https://248tech.github.io/project-inquiry/) or email [joe@248tech.com](mailto:joe@248tech.com). For bugs, open an issue on the repo.

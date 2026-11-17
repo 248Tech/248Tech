@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
+  <title id="t">Got an idea? Let's build it.</title>
+  <desc id="d">Start a project with 248Tech: a short guided brief covering what, scope, details and contact.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffb020"/><stop offset="1" stop-color="#ff6b3d"/></linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40 0) scale(420 220)"><stop offset="0" stop-color="#ffb020" stop-opacity=".22"/><stop offset="1" stop-color="#ffb020" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 240) scale(380 200)"><stop offset="0" stop-color="#ff6b3d" stop-opacity=".2"/><stop offset="1" stop-color="#ff6b3d" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#232a38"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <mask id="m"><rect width="880" height="240" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="238" rx="20"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+    .tile{animation:pick 7.2s infinite}
+    .t1{animation-delay:0s}.t2{animation-delay:1.2s}.t3{animation-delay:2.4s}.t4{animation-delay:3.6s}.t5{animation-delay:4.8s}.t6{animation-delay:6s}
+    @keyframes pick{0%,15%{stroke:#ffb020;stroke-width:2}17%,100%{stroke:#232a38;stroke-width:1}}
+    .dot{animation:pulse 2s infinite;transform-origin:45px 52px}
+    @keyframes pulse{0%{opacity:1}50%{opacity:.35}100%{opacity:1}}
+    .bar{animation:fill 7.2s ease-in-out infinite;transform-box:fill-box;transform-origin:left}
+    .b2{animation-delay:.4s}.b3{animation-delay:.8s}.b4{animation-delay:1.2s}
+    @keyframes fill{0%,6%{transform:scaleX(0)}22%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    @media (prefers-reduced-motion:reduce){.tile,.dot,.bar{animation:none}}
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="880" height="240" fill="#0e1117"/>
+    <rect width="880" height="240" fill="url(#dots)" mask="url(#m)"/>
+    <rect width="880" height="240" fill="url(#glowA)"/>
+    <rect width="880" height="240" fill="url(#glowB)"/>
+  </g>
+  <rect x="1" y="1" width="878" height="238" rx="20" fill="none" stroke="#232a38"/>
+  <rect x="1" y="1" width="878" height="238" rx="20" fill="none" stroke="url(#g)" stroke-opacity=".55" stroke-dasharray="120 1600">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1720" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- copy -->
+  <circle class="dot" cx="45" cy="52" r="4" fill="#4ade80"/>
+  <text x="58" y="57" class="mono" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#ffb020">BOOKING NEW PROJECTS</text>
+  <text x="38" y="102" font-size="34" font-weight="800" letter-spacing="-.8" fill="#eceef4">Got an idea? <tspan fill="url(#g)">Let's build it.</tspan></text>
+  <text x="38" y="132" font-size="15" fill="#98a2b6">Web apps, desktop tools, AI automation and self-hosted software.</text>
+
+  <g font-size="12.5" fill="#eceef4">
+    <rect x="38" y="152" width="78" height="26" rx="13" fill="#0a0c10" stroke="#232a38"/>
+    <circle cx="52" cy="165" r="9" fill="#ffb020" fill-opacity=".18"/><text x="52" y="169" class="mono" font-size="9.5" font-weight="700" fill="#ffb020" text-anchor="middle">01</text><text x="66" y="169">What</text>
+    <rect x="124" y="152" width="82" height="26" rx="13" fill="#0a0c10" stroke="#232a38"/>
+    <circle cx="138" cy="165" r="9" fill="#ffb020" fill-opacity=".18"/><text x="138" y="169" class="mono" font-size="9.5" font-weight="700" fill="#ffb020" text-anchor="middle">02</text><text x="152" y="169">Scope</text>
+    <rect x="214" y="152" width="88" height="26" rx="13" fill="#0a0c10" stroke="#232a38"/>
+    <circle cx="228" cy="165" r="9" fill="#ffb020" fill-opacity=".18"/><text x="228" y="169" class="mono" font-size="9.5" font-weight="700" fill="#ffb020" text-anchor="middle">03</text><text x="242" y="169">Details</text>
+    <rect x="310" y="152" width="70" height="26" rx="13" fill="#0a0c10" stroke="#232a38"/>
+    <circle cx="324" cy="165" r="9" fill="#ffb020" fill-opacity=".18"/><text x="324" y="169" class="mono" font-size="9.5" font-weight="700" fill="#ffb020" text-anchor="middle">04</text><text x="338" y="169">You</text>
+  </g>
+
+  <rect x="38" y="192" width="168" height="34" rx="10" fill="url(#g)"/>
+  <text x="122" y="214" font-size="14.5" font-weight="700" fill="#1a1200" text-anchor="middle">Start a project →</text>
+  <text x="222" y="214" font-size="13.5" fill="#98a2b6">248tech.github.io/project-inquiry</text>
+
+  <!-- form preview -->
+  <g transform="translate(540 26)">
+    <rect width="306" height="190" rx="12" fill="#0a0c10" stroke="#232a38"/>
+    <path d="M0 12a12 12 0 0 1 12-12h282a12 12 0 0 1 12 12v18H0z" fill="#12161e"/>
+    <circle cx="16" cy="15" r="4" fill="#ff5f57"/><circle cx="29" cy="15" r="4" fill="#febc2e"/><circle cx="42" cy="15" r="4" fill="#28c840"/>
+    <text x="56" y="19" class="mono" font-size="10.5" fill="#98a2b6">project-inquiry</text>
+    <line x1="0" y1="30" x2="306" y2="30" stroke="#232a38"/>
+    <g transform="translate(14 42)">
+      <rect width="64" height="3" rx="1.5" fill="#232a38"/><rect x="70" width="64" height="3" rx="1.5" fill="#232a38"/><rect x="140" width="64" height="3" rx="1.5" fill="#232a38"/><rect x="210" width="68" height="3" rx="1.5" fill="#232a38"/>
+      <rect class="bar" width="64" height="3" rx="1.5" fill="url(#g)"/><rect class="bar b2" x="70" width="64" height="3" rx="1.5" fill="url(#g)"/><rect class="bar b3" x="140" width="64" height="3" rx="1.5" fill="url(#g)"/><rect class="bar b4" x="210" width="68" height="3" rx="1.5" fill="url(#g)"/>
+    </g>
+    <text x="14" y="70" font-size="13.5" font-weight="700" fill="#eceef4">What are we building?</text>
+    <g font-size="11" font-weight="600" fill="#eceef4">
+      <rect class="tile t1" x="14" y="80" width="88" height="40" rx="8" fill="#12161e" stroke="#232a38"/><text x="24" y="98" fill="#ffb020">◧</text><text x="24" y="112">Web app</text>
+      <rect class="tile t2" x="109" y="80" width="88" height="40" rx="8" fill="#12161e" stroke="#232a38"/><text x="119" y="98" fill="#ffb020">◎</text><text x="119" y="112">Website</text>
+      <rect class="tile t3" x="204" y="80" width="88" height="40" rx="8" fill="#12161e" stroke="#232a38"/><text x="214" y="98" fill="#ffb020">▣</text><text x="214" y="112">Desktop</text>
+      <rect class="tile t4" x="14" y="126" width="88" height="40" rx="8" fill="#12161e" stroke="#232a38"/><text x="24" y="144" fill="#ffb020">✦</text><text x="24" y="158">AI</text>
+      <rect class="tile t5" x="109" y="126" width="88" height="40" rx="8" fill="#12161e" stroke="#232a38"/><text x="119" y="144" fill="#ffb020">⌂</text><text x="119" y="158">Self-hosted</text>
+      <rect class="tile t6" x="204" y="126" width="88" height="40" rx="8" fill="#12161e" stroke="#232a38"/><text x="214" y="144" fill="#ffb020">?</text><text x="214" y="158">Other</text>
+    </g>
+  </g>
+</svg>
