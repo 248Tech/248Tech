@@ -1,47 +1,41 @@
-### Hi, I'm Joe 👋
+## Joe W · 248Tech LLC
 
-I'm a backend and systems developer and I run **248Tech LLC**. I build software you host yourself, so you keep your data and don't pay a subscription:
+**I build self-hosted software for running game servers, monitoring cameras and managing event rentals.**
 
-- 🛠️ **Infrastructure that fixes itself:** agents that watch servers, catch problems early and recover without someone on call.
-- 🎮 **Game-server tooling:** control planes, Discord bots and automation for 7 Days to Die and Minecraft communities.
-- 📦 **Practical business software:** rental inventory, site measurement and event layout tools that grew out of real day-to-day work.
-- 🪟 **Small Windows apps** that do one job well, with no ads and no telemetry.
+<!-- CONFIRM: the next sentence is biographical. Keep it only if it is accurate. -->
+Most of my projects started with a job I needed done: keeping a 7 Days to Die community's servers healthy, watching IP cameras without a cloud subscription, and quoting event rentals without double-booking inventory. The software runs on hardware you control, and the open-source flagship READMEs state what it does, how it is tested and what is not finished yet.
 
-Most projects have a **live demo** you can try in the browser. See them all at **[248tech.github.io](https://248tech.github.io)**.
+**[Portfolio and demos](https://248tech.github.io)** · **Work inquiries:** <!-- TODO: add a verified email address or a working contact form before publishing --> EMAIL_NEEDED · **Bugs and support:** open an issue on the project's repository
 
----
+### Flagship projects
 
-#### 🛰️ Self-hosted platforms
+#### [Mastermind 7DTD](https://github.com/248Tech/Mastermind-7DTD-AI-Server-Manager): server manager for 7 Days to Die communities
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**RTSPanda**](https://github.com/248Tech/RTSPanda) · [demo](https://248tech.github.io/RTSPanda/) | RTSP camera platform: live view in the browser, recording, YOLO/Frigate detection alerts, Prometheus metrics | Go · React |
-| [**ShowTime**](https://github.com/248Tech/ShowTime) · [demo](https://248tech.github.io/ShowTime/) | Watch-party server with synced rooms, an encrypted library, AV1/VP9 encoding and E2E-encrypted chat | Node.js · WebRTC |
-| [**litemap**](https://github.com/248Tech/litemap) · [demo](https://248tech.github.io/litemap/) | Measure sites from satellite imagery: areas, distances, to-scale tents and vehicles, OpenAPI REST API | Node.js · ONNX |
-| [**GarageIQ**](https://github.com/248Tech/GarageIQ) · [demo](https://248tech.github.io/GarageIQ/) | Restoration manager for vehicle builds: dependency-aware checklists, parts and expenses, offline PWA | Node.js · SQLite |
-| [**RentalOS**](https://248tech.github.io/rentalos-site/) | Event rental software: inventory, quotes, conflict detection, pull sheets, e-signatures *(source private)* | React · Rust · SQLite |
+A Go agent on each game host takes jobs from a NestJS control plane with a Next.js dashboard. Safe restarts warn players, wait out Blood Moon, take a full backup and confirm the server is empty before restarting. Also handles mod quarantine, save backups, a live map, a player portal and Discord alerts. Runs in production for one community.
 
-#### 🎮 Game-server operations
+Go · TypeScript · PostgreSQL · Redis · [Browser demo (simulated data)](https://248tech.github.io/Mastermind-7DTD-AI-Server-Manager/) · Actively maintained · Minecraft port: [Mastermind Minecraft](https://github.com/248Tech/Mastermind-Minecraft-Server-Manager) (early)
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Mastermind 7DTD**](https://github.com/248Tech/Mastermind-7DTD-AI-Server-Manager) | Multi-server 7 Days to Die control plane and host agent: safe restarts, live map, player portal, Discord | TypeScript · Go |
-| [**Mastermind Minecraft**](https://github.com/248Tech/Mastermind-Minecraft-Server-Manager) | The same control plane for Minecraft: RCON console, mods and plugins, saves, health checks | TypeScript |
-| [**RegionHealer v2**](https://github.com/248Tech/RegionHealer-v2) | Finds corrupt 7DTD region files, restores them from backup and restarts the server safely | Shell |
-| [**fortnite-updates-bot**](https://github.com/248Tech/fortnite-updates-bot) · [demo](https://248tech.github.io/fortnite-updates-bot/) | Discord bot that posts Battle Royale, Save the World and Creative news | Python |
+#### [RTSPanda](https://github.com/248Tech/RTSPanda): self-hosted hub for RTSP cameras
 
-#### 🪟 Windows apps
+A Go server that supervises mediamtx: restarts it when it exits, reloads after repeated failed health checks and repairs stalled camera streams. Browser live view over HLS, per-camera recording, local YOLO detection on sampled frames or Frigate events, and Discord alerts. Runs on Docker or a Raspberry Pi.
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**QwenPad**](https://github.com/248Tech/QwenPad) · [demo](https://248tech.github.io/QwenPad/) | Sticky notes and a small Notepad with a fully offline local AI (Qwen + llama.cpp) | C# |
-| [**ImgConvert**](https://github.com/248Tech/ImgConvert) · [demo](https://248tech.github.io/ImgConvert/) | Offline batch image converter: HEIC to JPG, PNG, WebP and more. Portable, no telemetry | Python |
-| [**LyricVision**](https://github.com/248Tech/LyricVision) · [demo](https://248tech.github.io/LyricVision/) | Synced Spotify lyrics drawn over your games as a click-through overlay | C# |
-| [**GhostReel**](https://github.com/248Tech/GhostReel) | Always-on-top, click-through video overlay built on a stripped-down libVLC | C |
-| [**DarkNotepad**](https://github.com/248Tech/DarkNotepad) · [demo](https://248tech.github.io/DarkNotepad/) | A dark-mode Notepad replacement | PowerShell |
+Go · React · Python/ONNX Runtime · [Browser demo (simulated data)](https://248tech.github.io/RTSPanda/demo/) · Beta
 
----
+#### [RentalOS](https://248tech.github.io/rentalos-site/): event rental management (commercial, source private)
 
-**Tools I use:** Go · TypeScript · Python · C# · C · Node.js · React · NestJS · Docker · SQLite · Postgres · Linux/systemd · Discord bots
+Inventory availability that separates confirmed bookings from pending quotes, quoting with a click-to-sign audit trail, pull sheets for the warehouse, a public SEO catalog and an optional AI assistant whose changes require user confirmation.
 
-🌐 **[248tech.com](https://248tech.com)** `[WIP]`: the company site is still being built. Until it's ready, open an issue on any repo to get in touch.
+React · Express · SQLite · [Product site and browser demo (simulated data)](https://248tech.github.io/rentalos-site/)
+
+### Other projects
+
+- **[LiteMap](https://github.com/248Tech/litemap)**: measure sites from satellite imagery and check whether tents and vehicles fit, to scale. Node.js, OpenAPI 3.1 API. [Demo](https://248tech.github.io/litemap/)
+- **[ShowTime](https://github.com/248Tech/ShowTime)**: self-hosted watch-party server with synced rooms, passphrase-based end-to-end encrypted chat and a media library encrypted at rest. Node.js. [Demo](https://248tech.github.io/ShowTime/)
+- **[GarageIQ](https://github.com/248Tech/GarageIQ)**: planner for vehicle restorations with dependent tasks, parts and expenses, and offline sync. Source-available. [Overview](https://248tech.github.io/GarageIQ/)
+- **Windows apps:** [QwenPad](https://github.com/248Tech/QwenPad) (sticky notes with a local LLM via llama.cpp) · [ImgConvert](https://github.com/248Tech/ImgConvert) (offline batch image converter, including HEIC) · [LyricVision](https://github.com/248Tech/LyricVision) (synced Spotify lyrics overlay) · [GhostReel](https://github.com/248Tech/GhostReel) (click-through video overlay) · [DarkNotepad](https://github.com/248Tech/DarkNotepad)
+- **Community tools:** [fortnite-updates-bot](https://github.com/248Tech/fortnite-updates-bot) (Discord news bot) · [fortnite-cosmetics-browser](https://github.com/248Tech/fortnite-cosmetics-browser)
+
+### How I work
+
+<!-- CONFIRM: describe your actual review process in your own words. -->
+I build with AI coding assistants and keep their attribution in the commit history. I set the design, review the changes and decide what ships. The open-source flagship READMEs list its tests, current status and known limitations.
