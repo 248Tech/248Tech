@@ -38,6 +38,8 @@ Most projects have a **live demo** you can try in the browser. See them all at *
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**Tidy**](https://github.com/248Tech/Tidy) · [site](https://248tech.github.io/Tidy/) | Friendly PC cleaner and system monitor: apps eating RAM/CPU, a storage treemap, quick clean with Recycle Bin undo, remote access from your phone | Go · Svelte |
+| [**Tidy Lite**](https://github.com/248Tech/Tidy-Lite) · [site](https://248tech.github.io/Tidy-Lite/) | The 111 KB native edition of Tidy: no web engine, no installer, built for old and low-memory PCs | C# |
 | [**QwenPad**](https://github.com/248Tech/QwenPad) · [demo](https://248tech.github.io/QwenPad/) | Sticky notes and a small Notepad with a fully offline local AI (Qwen + llama.cpp) | C# |
 | [**ImgConvert**](https://github.com/248Tech/ImgConvert) · [demo](https://248tech.github.io/ImgConvert/) | Offline batch image converter: HEIC to JPG, PNG, WebP and more. Portable, no telemetry | Python |
 | [**LyricVision**](https://github.com/248Tech/LyricVision) · [demo](https://248tech.github.io/LyricVision/) | Synced Spotify lyrics drawn over your games as a click-through overlay | C# |
